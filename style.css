@@ -1,12 +1,66 @@
 .hg-conteudo {
-    background-color: silver;
+    background-color: rgba(240, 240, 240, 0.164);
 }
 
 .hg-conteudo > main {
-    background-color: #aaa;
+    background-color: rgba(255, 255, 255, 0.788);
+}
+
+#cabeçalho{
+    color: wheat;
+    background-color: royalblue;
+    display: flex;
+    align-content: center;
+}
+footer{
+    background-color: wheat;
+}
+.imgc{
+    border: 5px  solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:100%;
+	height:auto;
+}
+#titulo{
+    text-align: center;
+    text-shadow: 2px 1px sienna;
+
+}
+#logo{
+    position: relative;
+    left: 100px;
+}
+
+#coiso{
+    position: static;
+    left: 200px;
+}
+
+.icones{
+    background-color: wheat;
+    border: 5px solid darkblue;
+    width: 115px;
+    position: relative;
+    left: 40px;
+}
+.paginas{
+    background-color: wheat;
+    border: 5px solid darkblue;
+    width: 115px;
+    position: relative;
+    left: 40px;
+}
+
+.texto{
+   display: flex;
+   flex-flow: row;
+    
 }
 
 body {
+    background-image: url(fundo.jpg);
     margin: 0 auto;
     max-width: 1440px;
     min-height: 100vh;
@@ -22,6 +76,7 @@ body {
 
 .hg-conteudo > nav {
     order: -1;
+    
 }
 
 .hg-conteudo > main {
@@ -37,4 +92,12 @@ body {
     .hg-conteudo > nav {
         flex: 0 0 200px;
     }
+}
+h2{
+    margin-left: 20px;
+    font-size: 2em;
+    text-decoration: underline;
+}
+main p{
+    margin-left: 20px;
 }
